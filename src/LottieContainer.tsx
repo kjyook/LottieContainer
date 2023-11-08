@@ -35,3 +35,4 @@ const LottieContainer = ({ path, width, height }: LottieContainerProps) => {
 };
 
 export default LottieContainer;
+module.exports = LottieContainer;
