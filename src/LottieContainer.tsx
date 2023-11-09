@@ -8,7 +8,7 @@ type LottieContainerProps = {
     height?: string;
 };
 
-const LottieContainer = ({ path, width, height }: LottieContainerProps) => {
+export const LottieContainer = ({ path, width, height }: LottieContainerProps) => {
   const lottieContainer = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -28,11 +28,6 @@ const LottieContainer = ({ path, width, height }: LottieContainerProps) => {
     `;
 
     return (
-        <>
-            <Root ref={lottieContainer} />
-        </>
+        <Root ref={lottieContainer} />
     );
 };
-
-export default LottieContainer;
-module.exports = LottieContainer;
