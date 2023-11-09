@@ -46,6 +46,6 @@ const LottieContainer = ({ path, width, height }) => {
         width: ${width};
         height: ${height};
     `;
-    return (<Root ref={lottieContainer}/>);
+    return (react_1.default.createElement(Root, { ref: lottieContainer }));
 };
 exports.LottieContainer = LottieContainer;
