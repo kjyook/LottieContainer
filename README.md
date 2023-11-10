@@ -21,5 +21,14 @@ autoplay and loop options are true by default. I'll revise it soon so that it ca
 
 ## Type Props
 path: string
+
+
+
 width: string (default: 100%)
+
+
+
 height: string (default: 100%)
+
+## Author
+https://github.com/kjyook
