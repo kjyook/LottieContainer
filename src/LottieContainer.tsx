@@ -4,11 +4,11 @@ import styled from '@emotion/styled';
 
 type LottieContainerProps = {
     path: string;
-    width?: string;
-    height?: string;
+    width: string;
+    height: string;
 };
 
-export const LottieContainer = ({ path, width, height }: LottieContainerProps) => {
+export const LottieContainer = ({ path, width = "100%", height = "100%" }: LottieContainerProps) => {
   const lottieContainer = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
